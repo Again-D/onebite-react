@@ -28,5 +28,21 @@ let person = {
 let keys = Object.keys(person);
 
 for (let key of keys) {
-  console.log(key);
+  const value = person[key];
+  // console.log(key, value);
+}
+
+// 2.2 Object.values
+// -> 객체에서 value 값들만 뽑아서 새로운 배열로 반환
+let values = Object.values(person);
+// console.log(values);
+
+for (let value of values) {
+  // console.log(value);
+}
+
+// 2.3 for in
+for(let key in person) {
+  const value = person[key];
+  console.log(key, value);
 }
