@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
 // 리렌더링이 진행되는 경우 세가지
 // 1. state 값이 변경될 때
@@ -10,7 +10,7 @@ import Register from "./components/Register";
 function App() {
   return (
     <>
-      <Register />
+      <HookExam />
     </>
   );
 }
